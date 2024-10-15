@@ -2,8 +2,9 @@
 ## Express Request issue will crash your server
 While you used this server architechture to initiate your server, make sure type issue resolved from default express types. 
 
-Path: node_modules/@types/express/index.d.ts
-line: Maybe - 106 - 113
+- Path: node_modules/@types/express/index.d.ts
+
+- line: Maybe - 106 - 113
 #
 ```
  interface Request<
