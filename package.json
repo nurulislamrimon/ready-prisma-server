@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "dist/index.js",
-    "dev": "nodemon src/index.ts",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "build": "tsc"
   },
   "keywords": [],
